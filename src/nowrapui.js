@@ -7,6 +7,7 @@ import NoWrapActionsView from "./nowrapactionsview";
 import ContextualBalloon from "@ckeditor/ckeditor5-ui/src/panel/balloon/contextualballoon";
 import ClickObserver from "@ckeditor/ckeditor5-engine/src/view/observer/clickobserver";
 import clickOutsideHandler from "@ckeditor/ckeditor5-ui/src/bindings/clickoutsidehandler";
+import { translate } from "./translation";
 
 const VISUAL_SELECTION_MARKER_NAME = "no-wrap-ui";
 
@@ -17,6 +18,8 @@ export default class NoWrapUI extends Plugin {
 
   init() {
     const editor = this.editor;
+
+    translate();
 
     editor.editing.view.addObserver(ClickObserver);
     this.actionsView = this._createActionsView();

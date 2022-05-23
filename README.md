@@ -12,7 +12,7 @@ Install `ckeditor5-no-wrap` as a dev dependency to your custom build.
 ## Usage
 
 Import the plugin and add it to your plugin list, e.g.:
-`import NoWrap from "ckeditor5-clear-float/src/nowrap";`
+`import NoWrap from "ckeditor5-no-wrap/src/nowrap";`
 
     Editor.builtinPlugins = [
       ...
