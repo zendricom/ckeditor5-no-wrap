@@ -34,7 +34,7 @@ export default class NoWrapUI extends Plugin {
       const buttonView = new ButtonView(locale);
 
       buttonView.set({
-        label: t("NoWrap"),
+        label: t("No Wrap"),
         tooltip: true,
         icon: NoWrapIcon,
       });
