@@ -46,7 +46,7 @@ export default class NoWrapEditing extends Plugin {
       },
     });
 
-    conversion.for("upcast").attributeToAttribute({
+    conversion.for("upcast").elementToAttribute({
       view: {
         name: "span",
         classes: "no-wrap",
