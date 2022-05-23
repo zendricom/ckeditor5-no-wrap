@@ -1,0 +1,8 @@
+.no-wrap {
+  white-space: nowrap;
+}
+
+.no-wrap-editing {
+  background-color: #ffffc4;
+  border: solid 1px grey;
+}

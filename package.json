@@ -1,0 +1,11 @@
+{
+  "name": "ckeditor5-no-wrap",
+  "version": "1.0.0",
+  "description": "Add no-wrap to text elements in CKEditor 5.",
+  "author": "moritz@zendri.com",
+  "license": "ISC",
+  "files": [
+    "src",
+    "theme"
+  ]
+}
